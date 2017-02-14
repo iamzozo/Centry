@@ -1,0 +1,24 @@
+{
+  "name": "centry",
+  "version": "0.0.1",
+  "description": "Basic html, css & js scaffolding",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iamzozo/Centry.git"
+  },
+  "author": "Zoltán Várkonyi <iamzozo@gmail.com>",
+  "license": "GLP",
+  "bugs": {
+    "url": "https://github.com/iamzozo/Centry/issues"
+  },
+  "homepage": "https://github.com/iamzozo/Centry#readme",
+  "dependencies": {
+    "jquery": "^2.2.4"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-sass": "^3.1.0",
+    "gulp-uglify": "^2.0.1"
+  }
+}

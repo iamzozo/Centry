@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="dist/centry.js"></script>
+    <link rel="stylesheet" href="dist/centry.css">
+    <title>Centry test</title>
+</head>
+<body>
+    <div class="modal" id="test-modal">
+        <div class="modal-dialog">
+            <a href="#" data-toggle="dismiss">X</a>
+            <p style="height: 1200px;border: 1px solid blue">
+                First modal
+            </p>
+            <input type="text" value="">
+            <button>Save</button>
+        </div>
+    </div>
+
+    <div class="modal" id="another-modal">
+        <div class="modal-dialog">
+            <a href="#" data-toggle="dismiss">X</a>
+            <p>
+                Another modal
+            </p>
+        </div>
+    </div>
+
+
+    <div class="dropdown">
+        <a href="#" data-toggle="dropdown">Dropdown</a>
+        <div class="dropdown-menu">
+            <input type="text" value="">
+            <ul>
+                <li>One</li>
+                <li>Two</li>
+            </ul>
+            <button>Save</button>
+        </div>
+    </div>
+
+
+    <a href="#" data-toggle="modal" data-target="#test-modal">Modal</a>
+    <a href="#" data-toggle="modal" data-target="#another-modal">Other modal</a>
+</body>
+</html>
