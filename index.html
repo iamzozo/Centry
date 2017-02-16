@@ -10,41 +10,55 @@
     <title>Centry test</title>
 </head>
 <body>
-    <div class="modal" id="test-modal">
-        <div class="modal-dialog">
+<div class="modal" id="test-modal">
+    <div class="modal-dialog">
+        <form method="post" data-action="modal-form">
             <a href="#" data-toggle="dismiss">X</a>
-            <p style="height: 1200px;border: 1px solid blue">
+            <p style="height: 200px;border: 1px solid blue">
                 First modal
             </p>
-            <input type="text" value="">
-            <button>Save</button>
-        </div>
+            <input type="text" value="" name="first_name">
+            <button type="submit">Save</button>
+        </form>
     </div>
+</div>
 
-    <div class="modal" id="another-modal">
-        <div class="modal-dialog">
-            <a href="#" data-toggle="dismiss">X</a>
-            <p>
-                Another modal
-            </p>
-        </div>
+<div class="modal" id="another-modal">
+    <div class="modal-dialog">
+        <a href="#" data-toggle="dismiss">X</a>
+        <p>
+            Another modal
+        </p>
     </div>
+</div>
 
 
-    <div class="dropdown">
-        <a href="#" data-toggle="dropdown">Dropdown</a>
-        <div class="dropdown-menu">
-            <input type="text" value="">
-            <ul>
-                <li>One</li>
-                <li>Two</li>
-            </ul>
-            <button>Save</button>
-        </div>
+<div class="dropdown">
+    <a href="#" data-toggle="dropdown">Dropdown</a>
+    <div class="dropdown-menu">
+        <input type="text" value="">
+        <ul>
+            <li>One</li>
+            <li>Two</li>
+        </ul>
+        <button>Save</button>
     </div>
+</div>
 
+<a href="#" data-toggle="modal" data-target="#test-modal">Modal</a>
+<a href="#" data-toggle="modal" data-target="#another-modal">Other modal</a>
 
-    <a href="#" data-toggle="modal" data-target="#test-modal">Modal</a>
-    <a href="#" data-toggle="modal" data-target="#another-modal">Other modal</a>
+<div class="tabs">
+    <a href="#" data-toggle="tab" data-target="#tab-one" class="active">Tab one</a>
+    <a href="#" data-toggle="tab" data-target="#tab-two">Tab two</a>
+</div>
+<div class="tab-contents">
+    <div class="tab-content active" id="tab-one">
+        <h1>Tab one</h1>
+    </div>
+    <div class="tab-content" id="tab-two">
+        <h1>Tab two</h1>
+    </div>
+</div>
 </body>
 </html>

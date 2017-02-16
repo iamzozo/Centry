@@ -32,3 +32,25 @@ Markup:
     </div>
 </div>
 ```
+
+### Tabs
+
+Init:
+
+`<a href="#" data-toggle="tab" data-target="#target">`
+
+Markup:
+```
+<div class="tabs">    
+    <a href="#" data-toggle="tab" data-target="#target">
+</div>
+
+<div class="tab-contents">
+    <div class="tab-content active" id="target">
+        <h1>Tab one</h1>
+    </div>
+    <div class="tab-content>
+        <h2>Tab two</h2>
+    </div>
+</div>
+```

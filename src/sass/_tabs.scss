@@ -1,0 +1,21 @@
+.tabs {
+    border-bottom: 1px solid #EDEDED;
+    a {
+        padding: 5px 10px;
+        display: inline-block;
+        &.active {
+            font-weight: bold;
+        }
+    }
+}
+
+.tab-contents {
+    position: relative;
+}
+
+.tab-content {
+    display: none;
+    &.active {
+        display: block;
+    }
+}
